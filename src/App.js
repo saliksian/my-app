@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Group1 from "./Components/Group1.jsx";
+import Group2 from "./Components/Group2.jsx";
+import Group3 from "./Components/Group3.jsx";
+import Group4 from "./Components/Group4";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Group1 />
+      <Group2 />
+      <Group3 />
+      <Group4 />
+    </>
   );
 }
 

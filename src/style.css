@@ -1,0 +1,203 @@
+.logo{
+    width: 93px;
+    height: 79px;
+}
+.bg_img{
+    background-image: url("./assests/BackGround\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: white;    
+    list-style: none;
+    font-size: 25px;
+}
+/* .navbar-toggler-icon{
+    color: white;
+} */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.title_Group1{
+    font-size: 80px;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+.bodytext_Group1{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+.button_group1{
+    width: 223px;
+    height: 56px;
+    background-color: #f54b3b;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* group 2 styling */
+.group2{
+    width: 100%;
+    height: 800px;
+    background-color: #f5eddf;
+}
+.title_group2{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+    color: #f64b3c;
+}
+.bodytext_group2{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f64b3c;
+
+}
+.card1_img_group2, .card2_img_group2, .card3_img_group2{
+    width: 70%;
+    height: 70%;
+}
+.cards_title_group2{
+    font-family: 'Archivo', sans-serif;
+    color: #f64b3c;
+    font-size: 33px;
+    font-weight: bold;
+}
+.cards_bodytext_group2{
+    font-size: 25px;
+    color: #f64b3c;
+    font-family: 'Nunito', sans-serif;
+    
+}
+/* group3 styling */
+.group3{
+    width: 100%;
+    height: 700px;
+    background-color: #f54b3c;
+}
+.img_group3{
+    width: 100%;
+    height: 100%;
+}
+.title_group3{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+    color: #ffffff;
+
+}
+.bodytext_group3{
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    
+}
+.button_group3{
+    width: 223px;
+    height: 56px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    color: #f54b3b;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Group 4 styling */
+.group4{
+    background-color: #f5eddf;
+}
+.title_group4{
+    font-family: 'Archivo', sans-serif;
+    color: #f54b3b;
+    font-size: 4.0625rem;
+
+}
+.bodytext_group4{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #f54b3b;
+    
+}
+.button_group4{
+    width: 223px;
+    height: 56px;
+    background-color: #f54b3b;
+    outline: none;
+    border: none;
+    border-radius: 6.25rem;
+    color: white;
+    font-size: 1.5625rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+/* medium screen  */
+@media screen and (max-width: 992px){
+   
+    .title_Group1{
+        font-size: 60px;
+    }
+    .bodytext_Group1{
+        font-size: 26px;
+    }
+    .title_group2,.title_group3{
+        font-size: 54px;
+    }
+    .bodytext_group2,.bodytext_group3{
+        font-size: 22px;
+    }
+    .group2{
+        height: auto;
+    }
+    .group3{
+        height: auto;
+    }
+    
+}
+/* small screen  */
+@media screen and (max-width: 576px){
+   
+    .title_Group1{
+        font-size: 40px;
+    }
+    .bodytext_Group1{
+        font-size: 26px;
+        text-align: justify;
+
+    }
+    .title_group2,.title_group3{
+        font-size: 44px;
+    }
+    .bodytext_group2,.bodytext_group3{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .group2{
+        height: auto;
+    }
+    .group3{
+        height: auto;
+    }
+   
+}
