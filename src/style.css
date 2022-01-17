@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -160,7 +160,8 @@ body{
   font-weight: bold;
   font-family: "Archivo", sans-serif;
 }
-.bodytext_group5,.bodytext_group8 {
+.bodytext_group5,
+.bodytext_group8 {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -213,7 +214,8 @@ body{
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
-.button_group6,.button_group8 {
+.button_group6,
+.button_group8 {
   width: 210px;
   height: 46px;
   background-color: #f54b3b;
@@ -266,16 +268,16 @@ body{
   font-family: "Archivo", sans-serif;
   font-weight: bold;
 }
-.bodytext_group8{
+.bodytext_group8 {
   color: #f54b3b;
 }
 .button_group8 {
   width: 160px;
   height: 50px;
-  margin-left:-30px;
+  margin-left: -30px;
   border-radius: 0px 20px 20px 0px;
 }
-.email{
+.email {
   height: 100%;
 }
 
@@ -292,14 +294,14 @@ body{
   .title_group5,
   .title_group7,
   .title_group6,
-  .title_group8{
+  .title_group8 {
     font-size: 54px;
   }
   .bodytext_group2,
   .bodytext_group3,
   .bodytext_group5,
   .bodytext_group7,
-  .bodytext_group8{
+  .bodytext_group8 {
     font-size: 22px;
   }
   .group2 {
@@ -332,7 +334,7 @@ body{
   .group7_row {
     padding-top: 100px;
   }
-  .email{
+  .email {
     height: 50%;
   }
   .button_group8 {
@@ -357,7 +359,7 @@ body{
   .title_group8 {
     font-size: 44px;
   }
-  .title_group6{
+  .title_group6 {
     font-size: 34px;
   }
   .bodytext_group2,
